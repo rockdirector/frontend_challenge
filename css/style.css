@@ -59,7 +59,7 @@ h3 {
 
 h4 {
   font-family: AvenirNext-Medium;
-  color: #666666;
+  color: #555555;
   letter-spacing: .5px;
   text-align: left;
   text-transform: uppercase;
@@ -97,7 +97,7 @@ h4 {
 .direction h4 {
   border-top: 1px solid rgba(0,84,164,0.25);
   border-bottom: 1px solid rgba(0,84,164,0.25);
-  background-color: #eeeeee;
+  background-color: #efefef;
 }
 
 
