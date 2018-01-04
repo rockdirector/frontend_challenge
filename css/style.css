@@ -1,3 +1,8 @@
+/*
+CSS for BusyBus "Frontend Challenge"
+Bloc Assignment Jan 4, 2018
+Dan Bryk */
+
 /* box-sizing reset */
 
 *, *:before, *:after {
@@ -54,7 +59,7 @@ h3 {
 
 h4 {
   font-family: AvenirNext-Medium;
-  color: #777777;
+  color: #666666;
   letter-spacing: .5px;
   text-align: left;
   text-transform: uppercase;
@@ -135,6 +140,6 @@ h4 {
   bottom: 0px;
   width: 375px;
   height: 49px;
-  z-index: 3;
+  z-index: 2;
   background color: #0054A4;
 }
