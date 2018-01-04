@@ -1,0 +1,140 @@
+/* box-sizing reset */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* type style parent def */
+
+body {
+  font-family: "AvenirNext", "helvetica", "arial", sans-serif;
+  font-size: 14px;
+  letter-spacing: -.25px; /* tighten kern per recordit */
+  color: #0054A4;
+  background-color: #d3d3d3;
+}
+
+/* bus number */
+
+h1 {
+  padding-top: 6px;
+  width: 35px;
+  font-family: AvenirNextCondensed-DemiBold;
+  font-size: 1.4em;
+  float: left;
+  margin-right: 10px;
+  letter-spacing: -.5px;
+}
+
+/* bus line title */
+
+h2 {
+  padding-top: 6px;
+  width: 240px;
+  font-family: AvenirNext-Medium;
+  font-size: 1.4em;
+/*  font-size: 1.3em; */
+/*  line-height: 1.5em; */
+  float: left;
+}
+
+/* arrival time */
+
+h3 {
+  width: 50px;
+  font-family: AvenirNext-Regular;
+  font-size: 1em;
+  line-height: 1.15em;
+  text-align: right;
+  letter-spacing: -.5px;
+  float: right;
+}
+
+/* direction header */
+
+h4 {
+  font-family: AvenirNext-Medium;
+  color: #777777;
+  letter-spacing: .5px;
+  text-align: left;
+  text-transform: uppercase;
+  float: inline-end;
+  padding: 16px 16px 6px 16px;
+}
+
+
+
+/* container styles */
+
+.bus-list {
+  position: absolute;
+  width: 100%;
+  height: 352px;
+  top: 266px;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  background-color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  width: 375px;
+  height: 667px;
+}
+
+.content {
+  display: inline-block;
+  width: 100%;
+}
+
+.direction h4 {
+  border-top: 1px solid rgba(0,84,164,0.25);
+  border-bottom: 1px solid rgba(0,84,164,0.25);
+  background-color: #eeeeee;
+}
+
+
+.location {
+  width: 100%;
+  height: 38px;
+  display: block;
+/*  box-shadow: 0 0 1px 0 rgba(0,84,164,0.25); */
+  padding: 4px 16px 4px 16px;
+  position: relative;
+}
+
+.location:after {
+  content: '';
+  border-bottom: 1px solid rgba(0,84,164,0.25);
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.location:hover {
+  background-color: rgba(18,123,192,0.10);
+}
+
+.location:last-child:after {
+  border-bottom: none;
+
+  }
+
+.nav {
+  position: fixed;
+  top: 0px;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+.tab-bar {
+  position: absolute;
+  bottom: 0px;
+  width: 375px;
+  height: 49px;
+  z-index: 3;
+  background color: #0054A4;
+}
