@@ -11,11 +11,28 @@
 
 <body>
   <section class="container">
-    <nav>
-      <img src="/images/busybus_r8_nav.png" alt="Navigation Bar Mockup">
-    </nav>
 
-    <section class="bus-list">
+    <header>
+
+      <section class = "status_bar">
+        <img src="/images/busybus_status_bar.png" alt="Status Bar Mockup">
+      </section>
+
+      <section class="search-bar">
+        <form>
+          <div>
+            <input type="text" id="search-field" name="search" placeholder="Search Bus Line Or Location">
+            <button>
+              <img src="/images/busybus_search_btn.png"></button>
+          </div>
+        </form>
+
+      </section>
+
+    </header>
+
+    <main class="bus-list">
+
       <div class="direction">
         <h4>Eastbound</h4>
         <div class="location">
@@ -99,11 +116,19 @@
         </div>
       </div>
 
+    </main>
+
+    <section class="map">
+      <img src="/images/busybus_map_mock.png" alt="Map Mockup">
     </section>
 
-    <section class="tab-bar">
-      <img src="/images/busybus_r8_tab_bar.png" alt="iOS Tab Bar Mockup">
-    </section>
+    <nav class="tab-bar">
+
+      <img src="/images/busybus_tab_map_icon.png" alt="Map Tab">
+      <img src="/images/busybus_tab_plan_icon.png" alt="Planner Tab">
+      <img src="/images/busybus_tab_sched_icon.png" alt="Schedule Tab">
+      <img src="/images/busybus_tab_opt_icon.png" alt="Options Tab">
+    </nav>
 
   </section>
 </body>
