@@ -125,12 +125,13 @@ h4 {
 
 .location:last-child:after {
   border-bottom: none;
-
 }
 
 .map {
-  position: absolute;
+  position: fixed;
   top: 69px;
+  width: 375px;
+  height: 197px;
   background-color: #ffffff;
   z-index: 2;
 }
@@ -140,17 +141,17 @@ h4 {
   top: 20px;
   width: 375px;
   height: 49px;
-  padding: 3px 16px 3px 16px;
+  padding: 6px 16px 6px 16px;
   background-color: #0079C1;
   z-index: 2;
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  align-items: stretch;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .search-bar input {
-  width: 280px;
+  width: 298px;
   height: 30px;
   background-color: rgba(255,255,255,0.25);
   border-width: 0px;
@@ -169,6 +170,7 @@ h4 {
 .search-bar button {
   border: none;
   background-color: #0079C1;
+  vertical-align: middle;
 }
 
 .status_bar {
