@@ -23,7 +23,8 @@
           <div>
             <input type="text" id="search-field" name="search" placeholder="Search Bus Line Or Location">
             <button>
-              <img src="/images/busybus_search_btn.png"></button>
+              <img src="/images/busybus_search_btn_trans.png" name="submit" alt="Submit Search">
+            </button>
           </div>
         </form>
 
@@ -124,10 +125,34 @@
 
     <nav class="tab-bar">
 
-      <img src="/images/busybus_tab_map_icon.png" alt="Map Tab">
-      <img src="/images/busybus_tab_plan_icon.png" alt="Planner Tab">
-      <img src="/images/busybus_tab_sched_icon.png" alt="Schedule Tab">
-      <img src="/images/busybus_tab_opt_icon.png" alt="Options Tab">
+      <div class="tab active">
+        <a href="#">
+          <img src="/images/busybus_tab_map_icon.png" alt="Map Tab">
+          <p>Map</p>
+        </a>
+      </div>
+
+      <div class="tab">
+        <a href="#">
+                  <img src="/images/busybus_tab_plan_icon.png" alt="Planner Tab">
+        <p>Planner</p>
+        </a>
+      </div>
+
+      <div class="tab">
+        <a href="#">
+          <img src="/images/busybus_tab_sched_icon.png" alt="Schedule Tab">
+          <p>Schedule</p>
+        </a>
+      </div>
+
+      <div class="tab">
+      <a href="#">
+        <img src="/images/busybus_tab_opt_icon.png" alt="Options Tab">
+        <p>Options</p>
+      </a>
+      </div>
+
     </nav>
 
   </section>
