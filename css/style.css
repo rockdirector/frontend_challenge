@@ -23,7 +23,7 @@ body {
 
 h1 {
   padding-top: 6px;
-  width: 35px;
+  width: 10%;
   font-family: AvenirNextCondensed-DemiBold;
   font-size: 1.4em;
   float: left;
@@ -35,7 +35,7 @@ h1 {
 
 h2 {
   padding-top: 6px;
-  width: 240px;
+  width: auto;
   font-family: AvenirNext-Medium;
   font-size: 1.4em;
 /*  font-size: 1.3em; */
@@ -46,7 +46,7 @@ h2 {
 /* arrival time */
 
 h3 {
-  width: 50px;
+  width: 15%;
   font-family: AvenirNext-Regular;
   font-size: 1em;
   line-height: 1.15em;
@@ -78,6 +78,9 @@ h4 {
   top: 266px;
   overflow-y: auto;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .container {
@@ -146,6 +149,7 @@ h4 {
   z-index: 2;
   display: flex;
   flex-flow: row wrap;
+  flex-grow: 1;
   justify-content: flex-start;
   align-items: center;
 }
@@ -161,6 +165,7 @@ h4 {
   font-size: 1.2em;
   color: #FFFFFF;
   letter-spacing: -0.41px;
+  flex-grow: 1;
 }
 
 .search-bar input::placeholder {
